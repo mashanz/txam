@@ -40,7 +40,7 @@
         "decorations": false,
         "fullscreen": true,
         "alwaysOnTop": true,
-        "resizable": true,
+        "resizable": false,
         "maximized": false
       }
     ],

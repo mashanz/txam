@@ -11,10 +11,11 @@ edition = "2021"
 tauri-build = { version = "1", features = [] }
 
 [dependencies]
-tauri = { version = "1", features = [ "window-minimize", "window-show", "window-hide", "window-close", "window-maximize", "window-unmaximize", "window-unminimize", "shell-open"] }
+tauri = { version = "1", features = [ "http-all", "window-minimize", "window-show", "window-hide", "window-close", "window-maximize", "window-unmaximize", "window-unminimize", "shell-open"] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 
 [features]
 # This feature is used for production builds or when a dev server is not specified, DO NOT REMOVE!!
 custom-protocol = ["tauri/custom-protocol"]
+

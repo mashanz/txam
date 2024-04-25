@@ -6,8 +6,8 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "tauri-app",
-    "version": "0.0.0"
+    "productName": "txam",
+    "version": "1.0.0"
   },
   "tauri": {
     "allowlist": {
@@ -34,7 +34,7 @@
     },
     "windows": [
       {
-        "title": "tauri-app",
+        "title": "txam",
         "width": 800,
         "height": 600,
         "decorations": false,
